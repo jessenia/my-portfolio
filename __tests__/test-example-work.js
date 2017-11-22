@@ -25,7 +25,7 @@ const myWork = [
            https://www.flickr.com/photos/ssoosay/4097410999`
     }
   }
-];
+]
 
 describe('ExampleWork component', () => {
     let component = shallow(<ExampleWork work={myWork}/>);
@@ -63,7 +63,7 @@ describe('ExampleWorkBubble component', () => {
   });
 
   it("Should have the image source set correctly", () => {
-   expectimages.node.props.src).toEqual(myWork[1].image.src);
+   expect(images.node.props.src).toEqual(myWork[1].image.src);
   });
 
   it("Should call the openModel handler when clicked", () => {
