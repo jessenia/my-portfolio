@@ -1,0 +1,294 @@
+{
+	"basics": {
+		"name": "Jessenia Kahn",
+		"label": "Full Stack DevOops Engineer",
+		"picture": "../../public/images/profilepic.png",
+		"email": "jessenia.felix@gmail.com",
+		"phone": "(404) 827-8434",
+		"website": "jessenia.codes",
+		"summary": [
+			"I am a results-driven DevOps Engineer with extensive experience supporting innovative technology solutions for mission-driven companies. I am passionate about system theory and specialize in systems engineering, architectural design, production support, continuous integration, software delivery automation (including build and deployment), and database/server-side application development in Agile DevOps environments. As an AWS certified architect and developer, I am currently the development lead for numerous large-scale migrations of existing technologies to Amazon Web Services. ",
+			"I have been recognized for my ability to quickly embrace change, in all aspects of my work, often stepping far outside my comfort zone to identify the best solutions for complex problems. I am an avid learner who seeks out creative personal and professional development initiatives as the means to providing the best value to people, teams, and businesses. Driven by a bold vision, I am an analytical thinker, a proactive problem solver, and the 'go-to' engineer who consistently remains centered at the core of next-generation technology solutions.",
+			"Specialties: DevOps Engineering, Systems Engineering, Software and Application Engineering, Architectural Design, Configuration Management, Continuous Integration and Delivery, AWS, Agile Methodologies, Information Security, Risk Management, Linux Systems, Windows Systems, Scripting, Coding, Code Reviews, Testing, and Process Improvement"
+		],
+		"location": {
+			"city": "Atlanta",
+			"region": "GA",
+			"countryCode": "USA"
+		},
+		"profiles": [{
+				"network": "LinkedIn",
+				"url": "https://www.linkedin.com/in/jessenia/"
+			},
+			{
+				"network": "Github",
+				"url": "https://github.com/jessenia"
+			},
+			{
+				"network": "Stack Overflow",
+				"url": "https://stackoverflow.com/users/2852762/jessenia"
+			},
+			{
+				"network": "Quora",
+				"url": "https://www.quora.com/profile/Jessenia-Kahn"
+			}				
+
+		]
+	},
+	"work": [{
+			"company": "Verizon Wireless",
+			"position": "Systems Engineer",
+			"website": "www.verizonwireless.com",
+			"summary" : "Alpharetta, GA",
+			"startDate": "2012-02-06",
+			"endDate": "Present",
+			"highlights": [
+				"Joined company as a Systems Engineer I and was promoted to Systems Engineer II and most recently, designated Lead Developer over AWS Migration efforts (April 2018) due to exceptional performance and accomplishments in this space. As Systems Engineer, played integral role on the Mobile Content Solutions development team. Responsible for the development process for Catalog Management Platform projects including content creation, publishing content, indexing the catalog to support full text search for the numerous search and browse APIs. Promoted to lead the migration of existing technologies to AWS. Accountable for analysis, prioritization, design, and determining dev effort and LOEs.",
+				"Introduced continuous integration for existing applications, transitioning from classical waterfall set up to a DevOps open source stack, generating substantial cost/time savings and faster turnaround on business requirements, ultimately achieving automated streamlined processes.",
+				"Designated as lead developer for a data retention project, designing/developing an archiving and purging application to support the company’s DevOps and Security initiatives. Achieved significant cost savings by implementing the data retention policy and reducing the size of the application database servers allowing the transition to smaller Cloud Servers.",
+				"Recognized as a ‘go-to’ engineer for troubleshooting critical issues in production, QA, and development."
+			]
+		},
+{
+			"company": "Kahns Digital Services",
+			"position": "Full Stack Developer/Business Analyst",
+			"summary" : "Woodstock, GA",
+			"startDate": "2016-11-16",
+			"endDate": "Present",
+			"highlights": [
+				"Design and develop web and cloud infrastructure using ReactJS, Wordpress and Amazon Web Services. "
+			]
+		},		
+		{
+			"company": "Carmax Auto Finance",
+			"position": "Sr. Specialist - Decision Support",
+			"website": "www.carmax.com",
+			"summary" : "Kennesaw, GA",
+			"startDate": "2008-11-01",
+			"endDate": "Present",
+			"highlights": [
+				"Searched and managed complex data requests using Teradata and T-SQL. ",
+				"Collected, collated, and conducted data analysis in support of management and customer requests. Managed and maintained Crystal Reports. ",
+				"Selected to join invitation-only team for contributing to successful IVR debt collection campaigns and for displaying strong technical aptitude with data technologies and language.",
+				"Instrumental in improving processes and reducing costs by participating in the collection and analysis of car wholesaling data that allowed better decision-making abilities for management."
+			]
+		},
+		{
+			"company": "Carmax Auto Finance",
+			"position": "Sr. Specialist - Business Support",
+			"website": "www.carmax.com",
+			"summary" : "Kennesaw, GA",
+			"startDate": "2008-11-01",
+			"endDate": "Present",
+			"highlights": [
+				"Oversaw day-to-day operations and administration of a predictive dialer system for a large call center. Provided first tier technical support for employees.",
+				"Effectively monitored call performance across five departments and optimized metrics, including call drop rates and call wait times, through an IVR dialer system.",
+				"Significantly enhanced overall debt portfolio reduction metrics and customer delinquency rates by implementing innovative dialer strategies.",
+				"Created and executed test cases for enhancement of the CRM system.",
+				"Improved total daily debt reduction metrics, decreased account delinquencies, and enhanced user/caller experience by playing key role in the testing of the first CMS upgrade for a call center of 200+ employees."
+				
+			]
+		}		
+	],
+
+	"education": [{
+			"institution": "Kennesaw State University",
+			"area": "Computer Science",
+			"summary": "Master of Science",
+			"startDate": "2010-08-01",
+			"endDate": "2012-12-10",
+			"courses": [
+				"Application Development",
+				"Artificial Intelligence",
+				"Business Intelligence",
+				"Database Development",
+				"Cloud Computing",
+				"Networking",
+				"Operating Systems",
+				"Machine Learning"
+				
+			]
+		},
+		{
+			"institution": "University of Georgia",
+			"area": "Management Information Systems",
+			"summary": "Bachelor of Business Administration",
+			"startDate": "2006-08-01",
+			"endDate": "2008-08-01",
+			"courses": [
+				"Application Development",
+				"Database Development",
+				"Project Management",
+				"Business Analysis",
+				"Business Process Management"
+			]
+		}
+	],
+
+	"projects": [{
+		"name": "Kahns Tuning",
+		"publisher": "Jessenia Kahn",
+		"website": "kahnstuning.com",
+		"summary": "Family owned auto performance business website. Focus on automotive performance tuning. Features includes the sales and booking of services using WooCommerce.",
+		"image": {
+			"modal": "../../public/images/kahnstuning.jpg",
+			"thumb": "../../public/images/kahnstuning.jpg"
+		},
+		"keywords": [
+			"Wordpress",
+			"JavaScript",
+			"JQuery",
+			"WooCommerce"
+		]
+	},
+	{
+		"name": "Jessenia Kahn - Professional Website",
+		"publisher": "Jessenia Kahn",
+		"website": "jessenia.codes",
+		"summary": "Data driven website built with React.js and JSON resume schema. Infrastucture hosted on Amazon Web Services.",
+		"image": {
+			"modal": "../../public/images/jesseniawebsite.jpg",
+			"thumb": "../../public/images/jesseniawebsite.jpg"
+		},
+		"keywords": [
+			"React.js",
+			"JavaScript",
+			"JSON",
+			"Amazon Web Services",
+			"Continuous Development/Deployment"
+		]
+	}],
+	"skills": [{
+			"title": "Programming Languages",
+			"description": [
+				"Experienced developing primarily in Java building backend business systems, REST APIs, microservices",
+				"Oracle Ceritifed Java Programmer",
+				"Interested in procedural, functional, and object oriented programming languages",
+				"Currently exploring building serverless architecture using Python and AWS Lambda"
+			],
+			"skillDetails": [{
+					"name": "Java",
+					"level": "90"
+					
+				},
+				{
+					"name": "Python",
+					"level": "50"
+
+				},
+				{
+					"name": "React.js",
+					"level": "50"
+				},
+
+				{
+					"name": "Angular.js",
+					"level": "50"
+				}				
+			]
+		},
+		{
+			"title": "Database Languages",
+			"description": [
+				"Entensive experience in many SQL and NOSQL variants including PL/SQL, MySQL variants available in the AWS Cloud, T-SQL, DynamoDB, and Cassandra",
+				"Experienced in Batch Processing, Data Retention, Data Migrations, ETL, Data Replication, Reporting, Performance Tuning",
+				"Knowledge and experience in database security including setting up users, roles, privileges, data encryption"
+			],
+			"skillDetails": [{
+					"name": "PL/SQL",
+					"level": "100"
+				},
+				{
+					"name": "MySQL",
+					"level": "80"
+				},
+				{
+					"name": "DynamoDB",
+					"level": "80"
+				},
+				{
+					"name": "Postgres",
+					"level": "80"
+				},
+				{
+					"name": "Aurora",
+					"level": "80"
+				},
+
+				{
+					"name": "T-SQL",
+					"level": "50"
+				}			
+			]
+		},
+		{
+			"title": "DevOps Tools",
+			"description": [
+				"Experienced building highly available and scalable architecture",
+				"Experienced transitioning classical applications to a Continuously Integrated/DevOps stack.",
+				"Achieved 2 out of 5 AWS Certifications (Solutions Architect-Associate and Developer-Associate) and presently working on the remaining.",
+				"Experienced building efficient, highly-available and horizontally-scalable infrastructure designs"
+			],
+			"skillDetails": [{
+					"name": "Git",
+					"level": "100"
+				},
+				{
+					"name": "Artifactory",
+					"level": "100"
+				},
+				{
+					"name": "BitBucket",
+					"level": "100"
+				},
+				{
+					"name": "Maven",
+					"level": "100"
+				},
+				{
+					"name": "Jenkins",
+					"level": "100"
+				},
+				{
+					"name": "Ansible",
+					"level": "50"
+				},
+
+				{
+					"name": "Chef",
+					"level": "50"
+				}
+			]
+		}
+	],
+	"languages": [{
+			"name": "English",
+			"level": "Native"
+		},
+		{
+
+			"name": "Spanish",
+			"level": "Advanced"
+		}
+	],
+
+	"references": [{
+		"name": "Narmada P.",
+		"position": "Systems Engineering Manager",
+		"company": "Verizon WIreless",
+		"reference": "Jessenia played an integral part in helping us build and role out our Data Retention Policy. This was something requested for years by upper management. It was the first big DevOps initiative delivered by our development team and helped us in leaning out our databases as we transitioned them to the cloud. I really admire her for her work and efforts with everything she does. She plays a important role in the teamand was promoted to Lead for AWS Migration."
+	},
+	{
+		"name": "Chris Boris",
+		"position": "Information Security Analyst",
+		"company": "Macys Systems and Technology",
+		"reference": "Jessenia did amazing work with helping me build and scale my business website. She's professional, on time, and focused on quality and design."
+	},
+{
+		"name": "Joseph B.",
+		"position": "Database Administrator",
+		"company": "Verizon Wireless",
+		"reference": "I worked with Jessenia at Verizon Wireless. She's a sharp computer scientist with broad interests, great skill set, and a quick learner. It was a pleasure working with her during my tenure at Verizon Wireless."
+		
+	}]
+}
