@@ -2,8 +2,7 @@
   "name": "my-portfolio",
   "private": true,
   "description": "This is my serverless portfolio. It uses AWS and ReactJS.",
-  "version": "1.0",
-  "homepage": "https://she.codes",
+  "version": "1.2.2",
   "author": {
     "name": "Jessenia Kahn",
     "email": "jessenia.felix@gmail.com",
@@ -36,7 +35,8 @@
     "test": "npm run lint && npm run security-check && npm run bundle"
   },
   "dependencies": {
-    "downloadbutton": "^1.0.0"
+    "downloadbutton": "^1.0.0",
+    "semver": "^5.5.0"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -45,7 +45,6 @@
     "babel-preset-react": "^6.0.0",
     "create-react-class": "^15.6.0",
     "eslint": "^4.0.0",
-    "eslint-config-suddi": "^4.0.0",
     "eslint-plugin-react": "^7.0.0",
     "husky": "^0.14.0",
     "moment": "^2.19.4",
@@ -62,7 +61,6 @@
     "webpack-s3-plugin": "^0.9.0"
   },
   "eslintConfig": {
-    "extends": "suddi/frontend",
     "rules": {
       "react/no-deprecated": "off",
       "react/no-array-index-key": "off"
