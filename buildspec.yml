@@ -1,0 +1,18 @@
+version: 0.1
+
+phases:
+  pre_build:
+    commands:
+      - npm install
+      - npm test
+  build:
+    commands:
+      - npm run webpackBootstrap
+artifacts:
+  files:
+    - index.html
+    - favicon.ico
+    - app/*
+    - public/*
+    - bin/*
+
