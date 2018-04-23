@@ -5,9 +5,8 @@
   "version": "1.2.2",
   "author": {
     "name": "Jessenia Kahn",
-    "email": "jessenia.felix@gmail.com",
-    "url": "https://she.codes"
-  },
+    "email": "jessenia.felix@gmail.com"
+	},
   "repository": {
     "type": "git",
     "url": "https://github.com/jessenia/my-portfolio"
@@ -28,11 +27,11 @@
   "scripts": {
     "bundle": "webpack -p --progress",
     "deploy": "webpack -p --progress --config webpack.deploy.js",
-    "lint": "eslint .",
-    "prepush": "npm run lint && npm run security-check",
+
+    "prepush": "npm run security-check",
     "security-check": "nsp check --output summary",
     "start": "webpack-dev-server --hot --inline",
-    "test": "npm run lint && npm run security-check && npm run bundle"
+    "test": "npm run security-check && npm run bundle"
   },
   "dependencies": {
     "downloadbutton": "^1.0.0",
@@ -44,8 +43,6 @@
     "babel-preset-es2015": "^6.0.0",
     "babel-preset-react": "^6.0.0",
     "create-react-class": "^15.6.0",
-    "eslint": "^4.0.0",
-    "eslint-plugin-react": "^7.0.0",
     "husky": "^0.14.0",
     "moment": "^2.19.4",
     "nsp": "^2.0.0",
@@ -59,11 +56,5 @@
     "webpack": "^3.0.0",
     "webpack-dev-server": "2.7.1",
     "webpack-s3-plugin": "^0.9.0"
-  },
-  "eslintConfig": {
-    "rules": {
-      "react/no-deprecated": "off",
-      "react/no-array-index-key": "off"
-    }
   }
 }
