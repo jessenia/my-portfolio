@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "node"
+
+after_success:
+  - git config --global user.name "jessenia"
+  - git config --global user.email "jessenia.felix@gmail.com"
+  - git remote rm origin
+  - git remote add origin https://jessenia:${GH_TOKEN}@github.com/pineboat/react-continuous-deployment.git
+  - npm run deploy
